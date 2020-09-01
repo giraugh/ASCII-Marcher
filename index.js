@@ -1,5 +1,5 @@
 const container = document.querySelector('#container')
-const size = 64
+const size = 128
 const chars = `#@$%?*+;:,'`.split('')
 const nchars = chars.length
 
@@ -96,7 +96,7 @@ const loop = () => {
     draw()
 
     time++
-    setTimeout(loop, 10)
+    setTimeout(loop, 20)
 }
 
 loop()
